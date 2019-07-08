@@ -95,76 +95,7 @@
       <change afterPath="$PROJECT_DIR$/../base-syntax--assignment-problem/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../base-syntax--assignment-problem/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../base-syntax--assignment-problem/src/registerServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0386ecc00d945d6d0d5cb41a8d7be780.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/049339d7684778c0bc522790fdf35c40.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/06b4e75ce361b23e948c6223e2823262.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/071c44b5b0f9db5f95b7ac05885813c0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0b3046dd5397af61095b5f56f3d5dfc0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1c40b4bde8e3f9a85cbf85475084481f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/28afb1f00dd8c0e5e992a2f655fa33e3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2d9295325ad260fdc14db7c6e56d23cd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/34ba5482b9ce8e2c62fe4c2985a5b59b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/37c5d4db17aa4493f7abca0e2a64f842.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3b442f1a6c1435897bd0664402b1dd66.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3e398e767c8f4a7c3380b975b2397cb5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/41d0e22755a0d6cba2a5636a2c92d6ec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/437208787ad93d9133daf531296a7188.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/45215ca6dea5df7b6f41b82368c1664f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/45ac08503685fcbcc0de4b4d29134363.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/47f687ca19fc9a9c69d1a505219956a7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/49be4def465e77d8ada76b0441816805.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5511119ae175dc504122b9a4aa06ac38.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/59cae8fcd3cda271fa5b7d22c8a3fc9d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/614bae4300552f48536787a8570fc43f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/63b20b52e1577286b35ff2cd8dcf1209.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/69f00eedf8ab650d82d91fec5b13a41c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6bfd36aacbe1a04459b23c8294a84e96.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6c70315d20e50d0c4639f520f1fbcb11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/713d6df387393524407248fcfa934bc1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7196e6a73de8135d9c3b815b3037813b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/82ec9f4f6e282c2c7e479113905e4b4f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/832d02168adbf72c42b0b0a713b3900f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/84aa1c0e1a88cbba322f5bca2513e439.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8565389cc036150c740c9fcf71adf5f8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/881252500a64497c0fcf57cf29f30d72.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/89d95ffcc3075fc6183db229aa2b7be4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8bf5b5af4bf0531757be591dd7e3bdf0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8bff18cf6fd7f60ea794e5a1dd801cae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8e1b3961e5f5a9d9e9ded15adc5bf7bd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8ed88c8630bc7c3bc809f8909edfc13c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/911de7485432c45a9f5f7907750c1f96.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/921341affce59be6d32b43fd3d465563.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a098e5a05eb582e0f65e0e496c887979.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a673abaffd9dc08673c270d3a4e9eed8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a8c377c22db370136f72ed97bfa7fb18.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a9933e56427081bc4bf219acca06e866.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b0b8ca72a3f3710b658d902e2453f709.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b1140728e3a657484fc18860f3b71d8c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b11a3d209b08d302e9ea962df5c732de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b148db2ab3498609581319c8f78949a1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b450850a720036c78bf996a8f0500043.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b83cb785ed427bb03e7109c640c34209.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/baab66ed969fc0156c4d3d02979228e2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bc79f03e60614a203ec41dc032760dd6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c6253629b87ba24faf6c5dbf14f47724.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cbf239767522a8f84f41eee2600fdfbc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d35179c5ff1ad7c5c45f68cfae0a1ea8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d3d28a0ed5e0faf00f93c14bbefc7463.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d5f7b4cae8021b45b8ac5dd679bed62b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d620752872f5c128745e5bbe1df2bc68.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/da2794befd983be02708d497f6882ed2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e0e8b63fbedf6fd34c7c5d5d22f0132c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e5d24962c385ece29f82316840b1cb2c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e7f28e3948a36c9fdd68265d8485d7c3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e811d51f1ca5ce725b9facd404b9cf5b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/eb5483a687503731858f98195e50a046.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/eefcd8630cd16e8585467d1385199b96.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f34b69517b2ef002c8bb1bcd0d353c36.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fa4d4f57d1cacf1a6dc3ec47d55b447f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fc74242a33581a90482daf1a2830e596.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fc7bf8e4ac677b4f537394a45ae49de1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeadBckground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeadBackground.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lists-conditionals--assignment-problem" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../styling--01-radium/node_modules/core-js/library/modules/$.redefine.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../styling--01-radium/node_modules/core-js/library/modules/$.replacer.js" afterDir="false" />
@@ -5249,29 +5180,10 @@
       <change afterPath="$PROJECT_DIR$/../styling--01-radium/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../styling--01-radium/src/registerServiceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/defaultBcg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/defaultBcg.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/details-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/details-1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/details-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/details-2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/details-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/details-3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/details-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/details-4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gif/loading-arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gif/loading-arrow.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gif/loading-gear.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gif/loading-gear.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-10.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-11.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-12.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-6.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-7.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-8.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/room-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/room-9.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeadBckground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rooms.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5298,38 +5210,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/HeadBckground.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#49#95#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="159" column="10" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/views/Navbar.js">
+        <entry file="file://$PROJECT_DIR$/src/components/HeadBackground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#116#166#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Banner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -5337,17 +5237,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Rooms.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -5364,8 +5267,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ErrorPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="320">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -5388,15 +5294,17 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/home.js" />
-        <option value="$PROJECT_DIR$/src/components/Home.js" />
-        <option value="$PROJECT_DIR$/src/components/Rooms.js" />
         <option value="$PROJECT_DIR$/src/components/SingleRoom.js" />
-        <option value="$PROJECT_DIR$/src/components/ErrorPage.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/views/Navbar.js" />
         <option value="$PROJECT_DIR$/src/components/HeadBckground.js" />
+        <option value="$PROJECT_DIR$/src/components/HeadBackground.js" />
+        <option value="$PROJECT_DIR$/src/components/Banner.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/ErrorPage.js" />
+        <option value="$PROJECT_DIR$/src/components/Rooms.js" />
       </list>
     </option>
   </component>
@@ -5477,15 +5385,24 @@
       <updated>1562501485970</updated>
       <workItem from="1562501487251" duration="2732000" />
       <workItem from="1562515241480" duration="760000" />
-      <workItem from="1562587242595" duration="8028000" />
+      <workItem from="1562587242595" duration="10444000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;Route and Navbar setup&quot;">
+      <created>1562602503044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562602503044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11520000" />
+    <option name="totallyTimeSpent" value="13936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -5511,6 +5428,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Route and Navbar setup&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Route and Navbar setup&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -5538,27 +5459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SingleRoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ErrorPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -5570,25 +5470,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Rooms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/logo.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#49#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/views/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -5601,15 +5484,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#49#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeadBckground.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/components/SingleRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="159" column="10" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeadBackground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ErrorPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,10 +1,16 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
+
+import HeadBackground from './HeadBackground'
+import Banner from './Banner'
 
 const Rooms = () => {
     return (
-        <div>
-           <h1>Hello from rooms page</h1>
-        </div>
+        <HeadBackground cssClass="roomsHero">
+            <Banner title="our rooms">
+                <Link to="/" className="btn-primary">return to home</Link>
+            </Banner>
+        </HeadBackground>
     );
 };
 

@@ -1,10 +1,16 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
+
+import HeadBackground from './HeadBackground'
+import Banner from './Banner'
 
 const ErrorPage = () => {
     return (
-        <div>
-           <h1>error page</h1>
-        </div>
+        <HeadBackground>
+            <Banner title="404" subtitle="page not found">
+                <Link to="/" className="btn-primary">go back to home</Link>
+            </Banner>
+        </HeadBackground>
     );
 };
 
