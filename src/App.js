@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 //import './App.css';
 import {Route, Switch} from 'react-router-dom'
 
@@ -8,9 +8,18 @@ import Rooms from './components/Rooms'
 import SingleRoom from './components/SingleRoom'
 import ErrorPage from './components/ErrorPage'
 
+import {RoomsContext} from "./contextStore/RoomsContext";
+import {ResortContext} from "./contextStore/ResortContext";
+
 
 
 function App() {
+
+    const contextRooms=useContext(RoomsContext);
+    const contextResort=useContext(ResortContext);
+
+    console.log(contextRooms.name, contextResort.name)
+
   return (
     <React.Fragment>
         <Navbar/>

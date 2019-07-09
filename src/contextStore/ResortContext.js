@@ -2,16 +2,13 @@ import React,{useEffect, useState} from 'react'
 
 const ResortContext=React.createContext();
 
-const ContextProvider=(props)=>{
-
-
+const ResortContextProvider = (props) => {
 
     return (
-        <ResortContext.Provider value={{}}>
+        <ResortContext.Provider value={{name:"Hello from Resort Context"}}>
             {props.children}
         </ResortContext.Provider>
     );
 };
 
-export {ContextProvider, ResortContext}
-
+export {ResortContextProvider, ResortContext};
