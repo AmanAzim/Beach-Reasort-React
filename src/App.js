@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext,Component} from 'react';
 //import './App.css';
 import {Route, Switch} from 'react-router-dom'
 
@@ -12,25 +12,35 @@ import {RoomsContext} from "./contextStore/RoomsContext";
 import {ResortContext} from "./contextStore/ResortContext";
 
 
+class App extends Component{
 
-function App() {
+    //const contextRooms=useContext(RoomsContext);
+    //const contextResort=useContext(ResortContext);
+    //
+    render(){
+        return (
+            <React.Fragment>
+                <Navbar/>
+                <Switch>
+                    <Route path="/" exact component={Home}/>
+                    <Route path="/single-room/:slug" exact component={SingleRoom}/>
+                    <Route path="/rooms" exact component={Rooms}/>
+                    <Route component={ErrorPage}/>
+                </Switch>
 
-    const contextRooms=useContext(RoomsContext);
-    const contextResort=useContext(ResortContext);
+                <ResortContext.Consumer>
+                    {resortContext=>(
+                        <RoomsContext>
+                            {roomContext=>(
+                                <h1>{resortContext.name}{roomContext.name}</h1>
+                            )}
+                        </RoomsContext>
+                    )}
+                </ResortContext.Consumer>
 
-    console.log(contextRooms.name, contextResort.name)
-
-  return (
-    <React.Fragment>
-        <Navbar/>
-        <Switch>
-            <Route path="/" exact component={Home}/>
-            <Route path="/single-room/:slug" exact component={SingleRoom}/>
-            <Route path="/rooms" exact component={Rooms}/>
-            <Route component={ErrorPage}/>
-        </Switch>
-    </React.Fragment>
-  );
+            </React.Fragment>
+        );
+    }
 }
 
 export default App;
