@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-import HeadBackground from './HeadBackground'
-import Banner from './Banner'
+import HeadBackground from './reusableHbackgroundBanner/HeadBackground'
+import Banner from './reusableHbackgroundBanner/Banner'
 
 const Rooms = () => {
     return (
