@@ -1,8 +1,11 @@
 import React,{useEffect, useState} from 'react'
+import items from '../data'
 
 const ResortContext=React.createContext();
 
 const ResortContextProvider = (props) => {
+
+
 
     return (
         <ResortContext.Provider value={{name:"Hello from Resort Context"}}>

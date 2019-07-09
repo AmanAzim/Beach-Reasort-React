@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom'
-//import {RoomsContextProvider} from './contextStore/RoomsContext'
+//import {RoomsContextProvider} from './contextStore/RoomsContextProvider'
 import CombineContexts from '../src/contextStore/combineContexts'
 
 ReactDOM.render(

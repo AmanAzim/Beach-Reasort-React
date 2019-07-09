@@ -1,7 +1,7 @@
 import React,{} from 'react';
 
-import {RoomsContextProvider} from './RoomsContext'
-import {ResortContextProvider} from './ResortContext'
+import {RoomsContextProvider} from './RoomsContextProvider'
+import {ResortContextProvider} from './ResortContextProvider'
 
 const CombineContexts = (props) => {
     return (
