@@ -2,7 +2,7 @@ import React,{useContext} from 'react';
 import {RoomsContext} from '../../contextStore/RoomsContextProvider'
 
 import Title from '../reusableComps/Title'
-import FeaturedRoom from './FeaturedRoom'
+import ViewRoom from './ViewRoom'
 import Spinner from '../reusableComps/Spinner'
 
 const FeaturedRooms = () => {
@@ -11,7 +11,7 @@ const FeaturedRooms = () => {
     const {featuredRooms, loading}=contextRooms;
 
     const rooms=featuredRooms.map(room=>{
-        return <FeaturedRoom room={room} key={room.id} />
+        return <ViewRoom room={room} key={room.id} />
     });
 
     return (

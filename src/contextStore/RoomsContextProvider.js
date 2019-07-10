@@ -28,9 +28,9 @@ const RoomsContextProvider=(props)=>{
     };
 
     const formatData=(items)=>{
-        let clonedItem=cloneDeep(items);
+        let clonedItems=cloneDeep(items);
 
-        let tempItems=clonedItem.map(item=>{
+        let tempItems=clonedItems.map(item=>{
             const id=item.sys.id;
             const images=item.fields.images.map(img=>img.fields.file.url);
             const rooms={...item.fields, id, images};
@@ -40,9 +40,13 @@ const RoomsContextProvider=(props)=>{
         return tempItems;
     };
 
+    const getRoomBySlug=(slug)=>{
+        return rooms.find(room=>room.slug===slug);
+    };
 
     return (
-        <RoomsContext.Provider value={{...myState}}>
+        <RoomsContext.Provider value={{...myState,
+            getRoomBySlug:getRoomBySlug }}>
             {props.children}
         </RoomsContext.Provider>
     );
