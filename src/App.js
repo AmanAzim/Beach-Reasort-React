@@ -7,7 +7,7 @@ import Home from './components/Home'
 import Rooms from './components/Rooms'
 import SingleRoom from './components/SingleRoom'
 import ErrorPage from './components/ErrorPage'
-import FeaturedRooms from './components/FeaturedRooms'
+
 
 const App =(props)=>{
 
@@ -21,7 +21,6 @@ const App =(props)=>{
                 <Route path="/rooms" exact component={Rooms}/>
                 <Route component={ErrorPage}/>
             </Switch>
-            <FeaturedRooms/>
         </React.Fragment>
     );
 }

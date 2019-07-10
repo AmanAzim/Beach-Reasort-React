@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import HeadBackground from './reusableComps/HeadBackground'
 import Banner from './reusableComps/Banner'
 import Sevices from './views/Services'
+import FeaturedRooms from './views/FeaturedRooms'
 
 const Home=()=>{
     return (
@@ -14,6 +15,7 @@ const Home=()=>{
                 </Banner>
             </HeadBackground>
             <Sevices/>
+            <FeaturedRooms />
         </>
     )
 }
