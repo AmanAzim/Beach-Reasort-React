@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-import HeadBackground from './reusableHbackgroundBanner/HeadBackground'
-import Banner from './reusableHbackgroundBanner/Banner'
+import HeadBackground from './reusableComps/HeadBackground'
+import Banner from './reusableComps/Banner'
 
 const ErrorPage = () => {
     return (

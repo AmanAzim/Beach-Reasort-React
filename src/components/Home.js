@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import HeadBackground from './reusableHbackgroundBanner/HeadBackground'
-import Banner from './reusableHbackgroundBanner/Banner'
-import Sevices from './reusableServiceTitle/Services'
+import HeadBackground from './reusableComps/HeadBackground'
+import Banner from './reusableComps/Banner'
+import Sevices from './views/Services'
 
 const Home=()=>{
     return (

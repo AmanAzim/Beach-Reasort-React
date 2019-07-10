@@ -14,8 +14,8 @@ import {ResortContext} from "./contextStore/ResortContextProvider";
 
 class App extends Component{
 
-    //const contextRooms=useContext(RoomsContextProvider);
-    //const contextResort=useContext(ResortContextProvider);
+    //const contextRooms=useContext(RoomsContext);
+    //const contextResort=useContext(ResortContext);
 
     render(){
         return (
