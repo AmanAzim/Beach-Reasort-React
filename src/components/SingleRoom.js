@@ -4,8 +4,8 @@ import {RoomsContext} from '../contextStore/RoomsContextProvider'
 
 import HeadBackground from './reusableComps/HeadBackground'
 import Banner from './reusableComps/Banner'
-
-
+import StyledHeadBackground from './reusableComps/StyledHeadBackground'
+import defaultImg from '../images/room-1.jpeg'
 
 class SingleRoom extends Component {
 
@@ -13,6 +13,7 @@ class SingleRoom extends Component {
 
     state={
         slug:this.props.match.params.slug,
+        defaultImg:defaultImg
     };
 
 
@@ -35,7 +36,7 @@ class SingleRoom extends Component {
             const {name, description, capacity, size, price, extras, breakfast, pets, images}=room;
 
             showRender=(
-                <HeadBackground cssClass="roomsHero">
+                <HeadBackground cssClass="roomsHero" img={images[0]}>
                     <Banner title={`${name} room`}>
                         <Link to="/rooms" className="btn-primary">Back to rooms</Link>
                     </Banner>
