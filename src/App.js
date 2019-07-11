@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-//import './App.css';
 import {Route, Switch} from 'react-router-dom'
 
 import Navbar from './components/views/Navbar'

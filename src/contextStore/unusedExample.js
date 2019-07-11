@@ -1,33 +1,24 @@
 import React, {useContext,Component} from 'react';
-//import './App.css';
-import {Route, Switch} from 'react-router-dom'
-
-import Navbar from './components/views/Navbar'
-import Home from './components/Home'
-import Rooms from './components/Rooms'
-import SingleRoom from './components/SingleRoom'
-import ErrorPage from './components/ErrorPage'
-
-import {RoomsContext} from "./contextStore/RoomsContextProvider";
-import {ResortContext} from "./contextStore/ResortContextProvider";
 
 
-class App extends Component{
+import {RoomsContext} from "./RoomsContextProvider";
+import {ResortContext} from "./ResortContextProvider";
+import CombinedContextConsumerHOC from './combineContextConsumersHOC'
+
+class unusedExample extends Component{
 
     //const contextRooms=useContext(RoomsContext);
     //const contextResort=useContext(ResortContext);
 
+
     render(){
+        const {loading}=this.props.contextRooms;
+        const {services}=this.props.contextResort;
+        console.log('roomsContext',this.props.contextRooms)
+
         return (
             <React.Fragment>
-                <Navbar/>
-                <Switch>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/single-room/:slug" exact component={SingleRoom}/>
-                    <Route path="/rooms" exact component={Rooms}/>
-                    <Route component={ErrorPage}/>
-                </Switch>
-
+                <h2>Hello</h2>
                 {/*Consuming data from both Contextes*/}
                 <ResortContext>
                     {resortContext=>(
@@ -39,9 +30,12 @@ class App extends Component{
                     )}
                 </ResortContext>
 
+                {/*Consuming data from both Contextes using HOC*/}
+                <p>Loading is: {loading? 'true':'false'}</p>
+                <p>Number of services:{services.length}</p>
             </React.Fragment>
         );
     }
 }
 
-export default App;
+export default CombinedContextConsumerHOC(unusedExample);

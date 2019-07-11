@@ -3,7 +3,7 @@ import React,{} from 'react';
 import {RoomsContextProvider} from './RoomsContextProvider'
 import {ResortContextProvider} from './ResortContextProvider'
 
-const CombineContexts = (props) => {
+const CombineContextsProviders = (props) => {
     return (
         <ResortContextProvider>
             <RoomsContextProvider>
@@ -13,4 +13,4 @@ const CombineContexts = (props) => {
     );
 };
 
-export default CombineContexts;
+export default CombineContextsProviders;
