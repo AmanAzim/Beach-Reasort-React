@@ -6,8 +6,10 @@ import Banner from './reusableComps/Banner'
 import RoomsFilter from './views/RoomsFilter'
 import RoomsList from './views/RoomsList'
 import RoomsBackground from '../images/room-1.jpeg'
+import Title from './reusableComps/Title'
 
 const Rooms = () => {
+
     return (
         <React.Fragment>
             <HeadBackground cssClass="roomsHero" img={RoomsBackground}>
@@ -15,6 +17,7 @@ const Rooms = () => {
                     <Link to="/" className="btn-primary">return to home</Link>
                 </Banner>
             </HeadBackground>
+            <Title title="Filter rooms"/>
             <RoomsFilter />
             <RoomsList />
         </React.Fragment>

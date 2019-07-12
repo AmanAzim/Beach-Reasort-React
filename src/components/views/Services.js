@@ -3,6 +3,7 @@ import {ResortContext} from "../../contextStore/ResortContextProvider";
 
 import Title from '../reusableComps/Title'
 
+
 const Services=()=>{
 
     const contextResort=useContext(ResortContext);
@@ -24,6 +25,6 @@ const Services=()=>{
             </div>
         </section>
     );
-}
+};
 
 export default Services;
