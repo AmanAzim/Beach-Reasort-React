@@ -11,7 +11,8 @@ class Navbar extends Component {
 
     handleToggle=()=>{
         this.setState({isOpen:!this.state.isOpen});
-    }
+    };
+
     render() {
         return (
             <nav className="navbar">
