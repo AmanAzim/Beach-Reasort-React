@@ -13,6 +13,7 @@ const RoomsContextProvider=(props)=>{
     const [type, setType]=useState('all');
     const [availableTypes, setAvailableTypes]=useState([]);
     const [capacity, setCapacity]=useState(1);
+    const [availableCapacity, setAvailableCapacity]=useState([]);
     const [price, setPrice]=useState(0);
     const [minPrice, setMinPrice]=useState(0);
     const [maxPrice, setMaxPrice]=useState(0);
@@ -29,6 +30,7 @@ const RoomsContextProvider=(props)=>{
         type,
         availableTypes,
         capacity,
+        availableCapacity,
         price,
         minPrice,
         maxPrice,
@@ -50,13 +52,7 @@ const RoomsContextProvider=(props)=>{
         let myFeaturedRooms=myRooms.filter(room=>room.featured===true);
         setFeaturedRooms(myFeaturedRooms);
 
-        let maxPrice=Math.max(...rooms.map(room=>room.price));//will return all the prices of the rooms and Math.max() will return the max price.
-        setMaxPrice(maxPrice);
-        setPrice(maxPrice);
-        let maxSize=Math.max(...rooms.map(room=>room.size));
-        setMaxSize(maxSize);
-
-        getRoomsType(myRooms);
+        getRoomsInfo(myRooms);
         setLoading(false);
     };
 
@@ -74,7 +70,7 @@ const RoomsContextProvider=(props)=>{
     };
 
 
-    const getRoomsType=(myRooms)=>{
+    const getRoomsInfo=(myRooms)=>{
         let tempTypes=["all"];
       /*let isUnique=false;
         myRooms.forEach((room, i)=>{
@@ -96,8 +92,21 @@ const RoomsContextProvider=(props)=>{
         });*/
 
         //MODERN WAY://new Set([iterable]);//a Set returns A new Set object.
+        //Get rooms type
         tempTypes=[...tempTypes,...new Set(myRooms.map(room=>room.type))];
         setAvailableTypes(tempTypes);
+
+        const tempCapacity=[...new Set(myRooms.map(room=>room.capacity))];
+        setAvailableCapacity(tempCapacity);
+
+        let maxPrice=Math.max(...myRooms.map(room=>room.price));//will return all the prices of the rooms and Math.max() will return the max price.
+        setMaxPrice(maxPrice);
+        setPrice(maxPrice);
+        let minPrice=Math.min(...myRooms.map(room=>room.price));
+        setMinPrice(minPrice);
+
+        let maxSize=Math.max(...myRooms.map(room=>room.size));
+        setMaxSize(maxSize);
     };
 
     const getRoomBySlug=(slug)=>{
@@ -107,14 +116,36 @@ const RoomsContextProvider=(props)=>{
     const handleChange=(event)=>{
         const type=event.target.type;
         const name=event.target.name;
-        const value=event.target.value;
-        setType(value);
-        if(value==='all'){
-            setSortedRooms(rooms);
-        }else{
-            setSortedRooms(rooms.filter(room=>room.type===value))
+        const value=event.type==='checkbox'? event.target.checked:event.target.value;
+
+        if(name==='type'){
+            setType(value);
         }
+        if(name==='capacity'){
+            setCapacity(value);
+        }
+        if(name==='price'){
+            setPrice(value)
+        }
+        console.log(event.type);
         console.log('Event type='+type,'name='+name,'value='+value);
+    };
+
+    useEffect(()=>{
+        filterRooms();
+    },[type, price, capacity]);
+
+    const filterRooms=()=>{
+        let tempRooms=[...rooms];
+        if(type!=='all'){
+            tempRooms=tempRooms.filter(room=>room.type==type);
+        }
+        if(capacity!=1){
+            tempRooms=tempRooms.filter(room=>room.capacity>=capacity);
+        }
+        tempRooms=tempRooms.filter(room=>room.price<=price);
+
+        setSortedRooms(tempRooms);
     };
 
     return (
