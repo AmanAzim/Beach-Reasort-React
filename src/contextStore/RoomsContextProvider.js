@@ -92,19 +92,22 @@ const RoomsContextProvider=(props)=>{
         });*/
 
         //MODERN WAY://new Set([iterable]);//a Set returns A new Set object.
-        //Get rooms type
+        //Get rooms unique types
         tempTypes=[...tempTypes,...new Set(myRooms.map(room=>room.type))];
         setAvailableTypes(tempTypes);
 
+        //Get rooms unique capacities
         const tempCapacity=[...new Set(myRooms.map(room=>room.capacity))];
         setAvailableCapacity(tempCapacity);
 
+        //Get the maximum and minumum price of the rooms
         let maxPrice=Math.max(...myRooms.map(room=>room.price));//will return all the prices of the rooms and Math.max() will return the max price.
         setMaxPrice(maxPrice);
         setPrice(maxPrice);
         let minPrice=Math.min(...myRooms.map(room=>room.price));
         setMinPrice(minPrice);
 
+        //Get maximum size of the rooms
         let maxSize=Math.max(...myRooms.map(room=>room.size));
         setMaxSize(maxSize);
     };
@@ -116,7 +119,7 @@ const RoomsContextProvider=(props)=>{
     const handleChange=(event)=>{
         const type=event.target.type;
         const name=event.target.name;
-        const value=event.type==='checkbox'? event.target.checked:event.target.value;
+        const value=type==='checkbox'? event.target.checked:event.target.value;//Because checkbox dont use value attribute it uses "checked"
 
         if(name==='type'){
             setType(value);
@@ -125,15 +128,29 @@ const RoomsContextProvider=(props)=>{
             setCapacity(value);
         }
         if(name==='price'){
-            setPrice(value)
+            setPrice(value);
+        }
+        if(name==='minSize'){
+            setMinSize(value);
+        }
+        if(name==='maxSize'){
+            setMaxSize(value);
+        }
+        if(name==='breakfast'){
+            let tempValue=!breakfast;//To toggle tik of checkbox
+            setBreakfast(tempValue);
+        }
+         if(name==='pets'){
+            let tempValue=!pets;
+            setPets(tempValue);
         }
         console.log(event.type);
         console.log('Event type='+type,'name='+name,'value='+value);
     };
-
+    //Necessary because we want to filter the Rooms after each time certain parameters like type or capacity changes because they will be updated asynchronously.
     useEffect(()=>{
         filterRooms();
-    },[type, price, capacity]);
+    },[type, price, capacity, minSize, maxSize, breakfast, pets]);
 
     const filterRooms=()=>{
         let tempRooms=[...rooms];
@@ -144,6 +161,16 @@ const RoomsContextProvider=(props)=>{
             tempRooms=tempRooms.filter(room=>room.capacity>=capacity);
         }
         tempRooms=tempRooms.filter(room=>room.price<=price);
+
+        tempRooms=tempRooms.filter(room=>room.size>=minSize && room.size<=maxSize);
+
+        if(breakfast){
+            tempRooms=tempRooms.filter(room=>room.breakfast===true);
+        }
+
+        if(pets){
+            tempRooms=tempRooms.filter(room=>room.pets===true);
+        }
 
         setSortedRooms(tempRooms);
     };
