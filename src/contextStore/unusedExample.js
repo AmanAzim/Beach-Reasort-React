@@ -1,13 +1,24 @@
 import React, {useContext,Component} from 'react';
 
-
 import {RoomsContext} from "./RoomsContextProvider";
 import {ResortContext} from "./ResortContextProvider";
 import CombinedContextConsumerHOC from './combineContextConsumersHOC'
 
+
 class unusedExample extends Component{
 
-    //const contextRooms=useContext(RoomsContext);
+    constructor(props){
+        super(props);
+        const contextRooms=useContext(RoomsContext);
+
+        this.state={
+            someValue:contextRooms.rooms
+        }
+    }
+
+    componentDidMount() {
+       const contextRooms=useContext(RoomsContext);
+    }
     //const contextResort=useContext(ResortContext);
 
 

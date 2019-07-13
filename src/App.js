@@ -10,7 +10,6 @@ import ErrorPage from './components/ErrorPage'
 
 const App =(props)=>{
 
-
     return (
         <React.Fragment>
             <Navbar/>
