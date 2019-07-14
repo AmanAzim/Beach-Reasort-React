@@ -1,6 +1,8 @@
 import React,{useEffect, useState} from 'react'
 import items from '../data'
 import cloneDeep from 'lodash/cloneDeep';
+import Client from '../contentFul/contentFul'
+
 
 const RoomsContext=React.createContext();
 
@@ -45,15 +47,20 @@ const RoomsContextProvider=(props)=>{
     },[]);
 
     const loadData=()=>{
-        let myRooms=formatData(items);
-        setRooms(myRooms);
-        setSortedRooms(myRooms);
+        Client.getEntries({
+            content_type: 'beachReasorRooms' //To specify from which Content we want to get the records
+        }).then((response) =>{
+            console.log(response.items)
+            let myRooms=formatData(response.items);
+            setRooms(myRooms);
+            setSortedRooms(myRooms);
+            let myFeaturedRooms=myRooms.filter(room=>room.featured===true);
+            setFeaturedRooms(myFeaturedRooms);
+            getRoomsInfo(myRooms);
+            setLoading(false);
+        })
+        .catch(console.error)
 
-        let myFeaturedRooms=myRooms.filter(room=>room.featured===true);
-        setFeaturedRooms(myFeaturedRooms);
-
-        getRoomsInfo(myRooms);
-        setLoading(false);
     };
 
     const formatData=(items)=>{
@@ -65,7 +72,7 @@ const RoomsContextProvider=(props)=>{
             const rooms={...item.fields, id, images};
             return rooms;
         });
-
+        console.log('inside format', tempItems)
         return tempItems;
     };
 
@@ -140,7 +147,7 @@ const RoomsContextProvider=(props)=>{
             let tempValue=!breakfast;//To toggle tik of checkbox
             setBreakfast(tempValue);
         }
-         if(name==='pets'){
+        if(name==='pets'){
             let tempValue=!pets;
             setPets(tempValue);
         }
