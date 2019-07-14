@@ -48,7 +48,8 @@ const RoomsContextProvider=(props)=>{
 
     const loadData=()=>{
         Client.getEntries({
-            content_type: 'beachReasorRooms' //To specify from which Content we want to get the records
+            content_type: 'beachReasorRooms', //To specify from which Content we want to get the records
+            order: 'sys.createdAt'// order items in the response by the date of creation// if we want to order by "price" then "order:'fields.price'" and to order in reverse do like this "order:'-fields.price'"
         }).then((response) =>{
             console.log(response.items)
             let myRooms=formatData(response.items);
