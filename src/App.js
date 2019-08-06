@@ -6,7 +6,7 @@ import Home from './components/Home'
 import Rooms from './components/Rooms'
 import SingleRoom from './components/SingleRoom'
 import ErrorPage from './components/ErrorPage'
-//testing git from mac
+
 
 const App =(props)=>{
 
