@@ -51,7 +51,6 @@ const RoomsContextProvider=(props)=>{
             content_type: 'beachReasorRooms', //To specify from which Content we want to get the records
             order: 'sys.createdAt'// order items in the response by the date of creation// if we want to order by "price" then "order:'fields.price'" and to order in reverse do like this "order:'-fields.price'"
         }).then((response) =>{
-            console.log(response.items)
             let myRooms=formatData(response.items);
             setRooms(myRooms);
             setSortedRooms(myRooms);
@@ -61,7 +60,6 @@ const RoomsContextProvider=(props)=>{
             setLoading(false);
         })
         .catch(console.error)
-
     };
 
     const formatData=(items)=>{
